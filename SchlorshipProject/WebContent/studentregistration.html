@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Student Registration</title>
+<link rel="stylesheet" type="text/css" href="CSS/style1.css"/>
+
+</head>
+<body>
+<form action="studentregistration" method="post">
+<div class="addInstructor">
+<table>
+<tr>
+<td><b>Roll No</b> </td>  <td> <input type="text" name="rollno" placeholder="Enter three digit number" size="30" required="required" ><br></td>
+</tr>
+<tr>
+<td><b>Email</b> </td>  <td> <input type="email" name="email" size="30" required="required"><br></td>
+</tr>
+<tr>
+<td><b>First Name</b></td><td> <input type="text" name="fname" size="30" required="required"><br></td>
+</tr>
+<tr>
+<td><b>Last Name</b></td>  <td><input type="text" name="lname" size="30"><br></td>
+</tr>
+<tr>
+<td><b>Gender</b>  </td><td>   <input type="radio" name="gender" value="male" > Male
+  		   <input type="radio" name="gender" value="female"> Female
+  		   <input type="radio" name="gender" value="other"> Other<br></td>
+ </tr>
+ <tr>
+<td><b>City</b></td>
+<td><select name="City" >
+<option value="null" selected>select..</option>
+<option value="toronto">Toronto</option>
+<option value="vancouver">Vancouver</option>
+<option value="motreal">Motreal</option>
+<option value="ottawa">Ottawa</option>
+<option value="edmonton">Edmonton</option>
+<option value="winnipeg">Winnipeg</option>
+<option value="Hamiton">Hamiton</option>
+</select></td>
+</tr>
+<tr>
+<td><b>Password</b></td>  <td> <input type="password" name="password" size="30" required="required"><br></td>
+</tr>
+<tr>
+<td><b>Re-Password</b></td> <td><input type="password" name="repassword" size="30" required="required"><br></td>
+</tr>
+<tr><td><input type="submit" value="Register"><td></tr>
+</table>
+</div>
+</form>
+</body>
+</html>

@@ -1,0 +1,63 @@
+@CHARSET "ISO-8859-1";
+table {
+    display: table;
+    border-collapse: separate;
+    border-spacing: 5px;
+    border-color: gray;
+    padding-left: 300px;
+    padding-top: 50px;
+}
+.withdraw
+{
+	padding-left: 100px;
+    padding-top: 10px;
+}
+.admitable{
+	
+    border: 1px solid black;
+	display: table;
+    border-collapse: separate;
+    border-spacing: 50px;
+    border-color: gray;
+    padding-left: 100px;
+    padding-top: 1px;
+    border:thick
+}
+body {
+    background-image: url("scholarship.jpg");
+    background-repeat:no-repeat;
+	 background-size:cover;
+}
+.addmoney
+{
+	padding-left: 50px;
+    padding-top: -100px;
+}
+.addInstructor
+{
+	padding-left: 10px;
+    padding-top: -100px;
+    border: thick;
+}
+.adminlogin
+{
+	padding-left: 200px;
+    padding-top: 50px;
+    	
+}
+.homepage
+{
+	padding-left: 100px;
+    padding-top: 100px;
+}
+.view
+{
+	padding-left: -300px;
+    padding-top: -200px;
+}
+
+.enteramount
+{
+	padding-left: 60px;
+    padding-top: 100px;
+}
